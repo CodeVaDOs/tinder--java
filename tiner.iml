@@ -17,7 +17,7 @@
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-io:9.4.31.v20200723" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-servlet:9.4.31.v20200723" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-security:9.4.31.v20200723" level="project" />
-    <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.3" level="project" />
     <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.29" level="project" />
     <orderEntry type="library" name="Maven: org.mariadb.jdbc:mariadb-java-client:2.6.2" level="project" />
     <orderEntry type="library" name="Maven: io.vavr:vavr:1.0.0-alpha-3" level="project" />

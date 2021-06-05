@@ -20,10 +20,10 @@ import java.util.Optional;
 
 public class App {
     public static void main(String[] args) throws Exception {
-//        String portStr = System.getenv("PORT");
-//        Integer port = Integer.parseInt(portStr);
-//        System.out.println("PORT: " + port);
-        Server server = new Server(8080);
+        String portStr = System.getenv("PORT");
+        Integer port = Integer.parseInt(portStr);
+        System.out.println("PORT: " + port);
+        Server server = new Server(port);
         ServletContextHandler handler = new ServletContextHandler();
         final Optional<Connection> connection = Conn.get();
         final UserDao userDao = new UserDao(connection);
