@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.fs11.tiner.App
+web: java -cp target/classes:target/dependency/* com.fs11.tiner.App
